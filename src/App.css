@@ -14,8 +14,19 @@
 }
 
 .column {
+  background-color: #282c34;
   float: left;
   align-items: center;
+  width: 50%;
+}
+
+.left {
+  float: left;
+  width: 50%;
+}
+
+.right {
+  float: left;
   width: 50%;
 }
 

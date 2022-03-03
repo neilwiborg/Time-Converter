@@ -9,8 +9,8 @@ function App() {
 
   const later = date.addHours(now, -1);
   return (
-    <div className="row">
-      <div className="column">
+    <div className="App-header">
+      <div className="left">
         <h1>
           Pacific Standard Time:
         </h1>
@@ -18,7 +18,7 @@ function App() {
           {date.format(now, 'hh:mm A')}
         </h2>
       </div>
-      <div className="column">
+      <div className="right">
         <h1>
           Safwaan Standard Time:
         </h1>

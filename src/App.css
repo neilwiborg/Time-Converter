@@ -13,30 +13,6 @@
   }
 }
 
-.column {
-  background-color: #282c34;
-  float: left;
-  align-items: center;
-  width: 50%;
-}
-
-.left {
-  float: left;
-  width: 50%;
-}
-
-.right {
-  float: left;
-  width: 50%;
-}
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
 .App-header {
   background-color: #282c34;
   min-height: 100vh;

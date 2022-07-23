@@ -64,8 +64,8 @@ sketch
 # testing
 /coverage
 
-# production
-/build
+# production -- needs to be in repo for deployment
+# /build
 
 # misc
 .DS_Store
